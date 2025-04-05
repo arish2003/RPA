@@ -1,0 +1,136 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="exp8_test" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="exp8_test_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="exp8_test" sap:VirtualizedContainerService.HintSize="670,753" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="518,730" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome COVID-19 pandemic in India - Wikipedia" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,647" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="21467529-e82f-492f-bcb8-2c8270e34e47" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,407" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="paste" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NGetText DisplayName="Get Text '42,604,881'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="21467529-e82f-492f-bcb8-2c8270e34e47" TextString="[paste]" Version="V4">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable BrowserURL="en.wikipedia.org/wiki/COVID-19_pandemic_in_India" CVScreenId="c8a1502f-c8a2-4629-9150-3e2467cb7b92" ContentHash="BF4i5dxlk06Hr0bNpu3MWw" CvTextArea="915, 455, 40, 13" CvTextArgument="1.18%" CvType="Text" DesignTimeRectangle="914, 451, 174, 23" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl class='infobox' tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='infobox-data' aaname='1.18%' check:innerText='1.18%' /&gt;" Guid="88794b2f-f1a5-444c-b430-8fc206c6fb0c" InformativeScreenshot="a27184ea9777b4b7cdc27112a376bf23.png" Reference="eC9mtsYt50eg9xklfx8SWg/NcZGtSCS5EmRgiYGVQ0SkQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COVID-19 pandemic in India - Wikipedia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                </uix:NGetText.Target>
+              </uix:NGetText>
+              <ui:WriteTextFile File="{x:Null}" DisplayName="Write Text File" FileName="recovered.txt" sap:VirtualizedContainerService.HintSize="416,158" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[&quot;Total Recovered:&quot; + paste]" />
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Chrome" ContentHash="qldNb_pte0qV5jTKpxMHXA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAA4+SURBVGhDvZcJVJXVFseviUZOIKmoCV4QlVEmJwQZRJkcQE2zTOC91ypbzYNLUxFNcUATHCknHNLSSsxaTYrXYkhxQJ+VVgqaiJlPLuKEXjz77X2G734Xr9r03l7rv/777HPu/X77fOf7uBj+jmjt0NR5XEeX9Nk93HLyA7oVHBzQq/LkwCDzhUG94cKgPnAyMth8IMy/siCkp2l2d7ec+PbOKV0cmxsdm7VyCu6alDp+QPaOl+O3nZiRvKeO9HLc1uPjw7ILgtwTJ9AaeZm/Nwj6GTfXlwqCepgUqHBdHqPGQr/GhHJVDIqBgqHz2dzRRbezHt0P99LMkd/cGBr4Sm6rB11c5aX/WhD4JGPnzJ8HBtZciAllHCw6xNYJHEWur5HK4tJY9qi9GuCc0ftgzqMo9Cx0Eq9JqXUZyXsu+3SOTJYYfy4mGTshuDoaBEQ7aoXjtagQpnb6PObno4L5uDq6N3yWNAOydFBKc0YLnz0KNdK2Rs1lqXz0Phbt88/pTQxNmkik3xd0Xgt7+5XTbnIRYCNXoNyj0aNDpGhNKBTFT+QQemk7jZCzR+6DBeNLYVFqKTYiavo7oFeIcdg/JNr9Y6xru7SfIgLNGiBCcUANVA8rFRUC1aTIYFYdGcQODX4c5o4utYHgO0vOIfdB5vBi+OnIOai5UAPzxmET2BBvwk4jb44queXVoe8QiXj3eL1rx0wFq8DU7hKc8CDhOEfzHB5r1VHB0kNg4/BVNgBceCwU/Mxh30LeywfhNrsBAAy2LvgOMhJKYe4Y2SgercafpzeXxLQfr7l3zNTvroIROyvzSIREPzdQAlOONRKfQ52MjrJ/7uXOzh27H6bGFUHZ52egurIGfjxcDRXHLmADRaIBXNP4DvDP4/PQ2rFdJ4lrG2NdH06r5lC64yDHAlQCShfQQdSIyCMCmfLCuBftXVwIm+DnfUwJ3Lh+Db5Y9zOszyjHu1APS54+ALNGfCvXf2u3ib6eoyZKZGvQA3s8LKCGAyI0QRCoflcFNMJyUOFVKudNBEEVOmnN8I2s8YW5CAh3OCOhBLZlH+PQS589CLNHl8DN+utQuOUUTIsr5nfIHjwpPWLJFxLbGvv7+Vba7CIBUS6B9M7z8F5MwWqKIAVy17/zldQdyBqzD6bjUak49hv88uNFyEgqgalDSqC8sAof5lqYlVysrbXXREZyYa3EFvGqm2umtoskHbgtIMHpRE00qp2VPm90sc1F9W+VmSNKYckzZdBw+xbszDsOs1Lw7YPHZUPmEX5H1k0rhxlDS/idomOk/x7SrJFF9RLdYGjeroVx4SvR1t1EqLMo3oAGZM1pjrvSgABWlRAOl9fmQf3hA2CpPocQAPPHlWkXVPAkOhrT44th18afcdVtuH7tKty4eh1uXLsO165cxRqDA1+dwTuEx0j3MPO3kvw+mztgnBiyPnJ9ChxO6qPtni2gBA7vJaXyQDj/aAKHthfLJpZrF9T9ReV6c2QpXDpfCyf//Rtsnn0Mti8+wbVl9ndw5OuzcP3qNfzjhutSCFqBWxugH4AcvvnDLYwhW0ZBKOrZOXEa2C+4q7bQQr8ohfkzc+4CuF1XJ3FFVJsZfHrkJqw21cPCSce1C2rHhx7epFLIxyMC0AAbM4/CpMhv+DOQkVgCk2OKYPlzZThnge25x/FOlWgP8xz5XSTtb4FLpHt60OZkFrw5BUI2j4TPxvSTgAGM+wClAA5N+Rn02jUrObCKT8pvwsT1V6FPZi30nXmZ+7jnK6wNyJ2nIzEtsRh+2H8erpjrEEr8lSbIuWPF8cocXgTnKy9BdcUlmIF/pQmcPjtbdwe016h3Vkx50LvJjOCpkdTsBAEroc/0J2h0pbAAqMmdL7Fpx2/DM/kCvPfMWuiD6k05KnrKhTsaUFo3pRzyXjiAR0Q+oLJOx4SOzbKJZZA/FY/gGPl3gOZ1DbRt0cnIj0/gphEsEBsIfjcFglDky58JZ2f6+zHcaQ5M+Wk5rkqJY+rYEPzwnDoNmBQ6wyoav5h2TLuoXpn4E2LWCAEkwEVd/RKdlYy/kYYSvKzLedLWyW+Dc8sHnA1tQl2TgzYlQ2OFrx0B30cGsNP9CJya8Afy0/182ZVPd3B4iqfXXUFQs04IjtAhulr05F/hzTFlHFIvOkriFSnhZZ3uAHec42vUmOYxn/9YMdR8GQGpiU7phs5P+OUEbhwBQsncqYFeG4ez+S8M1KAr+/lBZX8/qBoZJ9EBduKZJ1D7Ek0ojXzhtLZ7f1WHVz8FllJveOvFDrmGblPCTL02jICADcOZvomADcMY1fcPCQIOL3Vp8TyJDzD0rcsQnGG2CkFtxo00fuLPdoH+iPYuegMsJT2ZpcQbPprXZYfBZ1FsZa8Nw8GeAtYPY49nxbLKPj6sAlXZ1xduHKLXG8CJ8w0QhFAkglP5vVUDSS+fhZljD9iFu5cWPrEXTmx6DOG7I3x31lDSA0596FFp8F8/lPVaj8CoAK5hPKc65VTbmRzMG6jABtTDu+eHWxCIQFzTpaMIVLi+pq+bIWzyBXjuLg+2Pb0/6W2o+bw/WIq9mKW4O/eGEi+4+LmH2RCQPwz88xEW/W6KXZoAFb292anQnozTY+TtuQG9EFxJwdrU7OS8WZnHvloFT+CxWvDK95D34lHIfvIAZD/+Nax8agdsee0dtnfRZKjYOgwI1lLsyRqKu0FDsRcf8xzd4JefxPwR0lZDwX8dCnO/dUnMF5X7r/5wKtRba2Bl4XUNTq+Ae4wbz6kafZcKArXCKnkKlXSjebAUeeAdQMfc4LM83uy7LpH5ETCKcnK/tUl8THXftYmsb14CHA33xR9pVfxCOw7XQ8C0GvCfdok7gXDX541crfWnmq5eiMeRh+UyhyJYS5ERG/HAsYdsAHOscRc5rxm8sqMrCZLkg6AaOLoS1UlTXgqH6wf382udwz9gBCQk4Oyr8dyda49XN/DvZLXfcqgGhCNAq9wZ1ax1d0Y6ue2RSkOX50IKfNck4S4LWN81iTa5z5oERuJ1XHfww1X8YhTpay6DHwL4IZTwP664RbXy2/BH9alZCNcVQW2FsGD5xg2hSZjL8e6lriZDx3G+OQJOwPJm5JjkvToeGyBPYKRxOcnycgAFh26C79RL4IsgXJgTFK/dR2pdwaF6+W34u7QsDAG74G4TIHkXgiZYPhYuhfW3nnfKNTiFPZJOkBx0dQKQeDOrlURNSIz3Vx+VlwRIW10HPgiiRFA+U/+jgernbNdcws9elt+Cx+fCBwpU6hEE7owi7wINvEZjzIuERkQ4JhuaPuTgzOFWJUDPVXG8CW+eY1PoelGN1sS+lwZ1N+m/JoCqmtswONsM3ghN4N5vCLfml7QarVG1wQvNUIXPEUVd/VXc/X4EK0C/7sRz8ga9c3WW852Y0bWpkf+cdnutj8l7VbwEjYee78QhPI7fUTVR52NZyyrN4xenoCZScTcJ7g7JBvSagGvpMypqf8Kzz6EIriPj+qYT1XTjjthEJ2xQ1A+taVfO4SmcY91f6olgSj3eHsKs4zibOp97W9SWHdwkEURsP1gPgxbUQA+E7IlSrjRhVS1s1515io+OroUaEx0PDVgnV4TWj4UaUBPiHdMkvsHwgKODs1dOjLk7wpE4oIQk7yFFc+T6Gt0JOgL6OH6uAXZ9fxOW7roGy3Zfw8Zu2Ow4RV39FcgqyYMPdvogVAfaZXRXmbsiJOVKHXDcASx72zMSzWnHR4XLMM9MBdUjD2HzBrMeeUMwR2HNS469VqLLcXc5H/XuePbRiS8l2v1j37kjELVpPItaE4mwCKa0tx0CorRxey4Jj3qYGoC1k1vnS2xr0F3wXBRdo8C6r0SR83ywzZigtTHNyXH0pichqziPA56t+1XiAs+ptrRsI4SuSxGfxc+d3oVvFQ2sHTpJl5sot5njcnd9wHb3VbQd6pmJO8wv0G1lLNPAuSuJcbcVNM/viJZT3WuFENWUi3l9bRCbtCUEYVzwOBCYC4EKSFNbmZNcbB3nZqQ7Zkpc++E2pV+5glBS8F4rYqX0843H+ppaHwueywdxeMpD8qLh9Ff4MEooDmgiSBesCbeYnBmvmdriGIV+8r02FRLz7uHg4mj0WBhp7rY8FpToononGOExTIGRC8XwOaXG427LB0HONm+Ea4uwBObMbpmccExyljUnRn5rTxteI138pI3ZeLej0zha9+2Y7rEshpHURYUwX4ZOwrEnunWNmKOxVkenXP+5iHfCJZQVTuROEtgJLJq3ZphzTw5vliLxfl+4JHrOpIvbk8fSaA1Sqy+NuWOdkhHX02dI27bjT2UCU4CmNgguXMC2QujW1JQQ5hmpD86UWH8snBONmRwMJSCEkxSYcQnmS6mpGC5tXo6Vk8at7c2B9GowEaxtzbKnJeP1Pa1gRlqzez+094sW/u1S3OdHmBFUA/FYEgNdl0QhfBSjXNU8cA3VSTSmz+jHp7/AhxLhCMxWLVEtsN4SbhU+xCyoiztbmFPjHdIlxl8Lh7aOxi4z+lVywFwEz5WOYw6JedfcSJSY06TNR7JXN/gLOA7aAgiSg4ua8MKHyOHAKsdyo2uT3/fA/pFwSuiaqcDcEcqYG8VB3XMoF67yrjlijhS+oj/uPr5dCFTASjlq0JbCB9nFj5ubM1Id/tx5/71Bd+Phx3vmEyhB6uX21kDegFvOQD6HOa+v3or/BiIgAhO00O4Htfzix81qMlKbZjq3bOIsL/O/D2qkVZ+O6Z1eDy0ncA68OFKTqEXCgOX9Cd4qAt/dnKFg9+JmpudHN33p/wpuL6gZetidUzxz2j8bYOo8vW8lNdFlUQR7/4NHcIcdzD9tdqj8cJZDwaJnm+ZMiG+S9vdAGwz/BTtFAWs9/k4eAAAAAElFTkSuQmCC" InformativeScreenshot="b4919ebb0c1c1bc66dc496df731cf689.jpg" Reference="eC9mtsYt50eg9xklfx8SWg/O9dla98qTESQQFt4hUPq3w" Selector="&lt;html app='chrome.exe' title='COVID-19 pandemic in India - Wikipedia' /&gt;" Url="https://en.wikipedia.org/wiki/COVID-19_pandemic_in_India" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>
